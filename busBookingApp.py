@@ -29,7 +29,7 @@ def getUserId():
     print()
     print()
     print("""
-                For Varification..!""")
+                For Varification Purpose..!""")
     passwd=input("Enter your Password again:")
     myCursor.execute("select * from u_profile where password='{}' ".format(passwd))
     User=myCursor.fetchone()
